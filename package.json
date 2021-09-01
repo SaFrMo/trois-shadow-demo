@@ -1,0 +1,23 @@
+{
+  "name": "trois-shadow-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "simplex-noise": "3.0.0",
+    "three": "0.132.2",
+    "trois-renderer-proof-of-concept": "0.1.1368",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/three": "0.131.0",
+    "@vitejs/plugin-vue": "^1.3.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vue-tsc": "^0.2.2"
+  }
+}
